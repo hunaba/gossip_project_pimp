@@ -16,7 +16,7 @@ Rails.application.routes.draw do
   #resources :log_in 
   resources :log_in, only: [:new]
   resources :log_out, only: [:destroy] 
-  post '/log_in', to: 'log_in#new', as:'log_in'
+  #post '/log_in', to: 'log_in#new', as:'log_in'
   #get ‘/signup’ => ‘users#new’
   #post ‘/users’ => ‘users#create
 
